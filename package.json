@@ -23,10 +23,8 @@
     "lodash": "^3.3.1",
     "traverse": "^0.6.6"
   },
-  "peerDependencies": {
-    "error-handler": "git+ssh://git@bitbucket.org:swingdev/error-handler.git"
-  },
   "devDependencies": {
+    "error-handler": "git+ssh://git@bitbucket.org:swingdev/error-handler.git",
     "coffeelint": "^1.6.1",
     "del": "^0.1.3",
     "fs": "0.0.2",
