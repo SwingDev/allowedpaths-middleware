@@ -24,7 +24,7 @@
     "traverse": "^0.6.6"
   },
   "peerDependencies": {
-    "error-handler": "git+ssh://git@bitbucket.org:swingdev/error-handler.git",
+    "error-handler": "git+ssh://git@bitbucket.org:swingdev/error-handler.git"
   },
   "devDependencies": {
     "coffeelint": "^1.6.1",
