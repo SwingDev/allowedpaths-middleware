@@ -1,7 +1,7 @@
 # allowedpaths-middleware
 _             = require('lodash')
 traverse      = require('traverse')
-ErrorHandler  = require('error-handler')
+ErrorHandler  = require.main.require('error-handler')
 
 
 AllowedPaths = (arrAllowedPaths) ->
