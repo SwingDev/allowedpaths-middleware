@@ -52,7 +52,7 @@ _pickAllowedPaths = (arrAllowedPaths, reqObj) ->
   arrAllowedPathsVals  = _.map arrAllowedPathsSplit, (components) -> traverse(reqObj.body).get(components) ? traverse(reqObj.body).get(components)
 
   allowedParams = _.zipObject arrAllowedPaths, arrAllowedPathsVals
-  allowedParams = _.pick allowedParams, (param) -> param?
+  allowedParams = _.pick allowedParams, (param) -> typeof param isnt "undefined"
 
   allowedParams
 
